@@ -1,0 +1,220 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.6.1">
+  <diagram name="Page-1" id="q5gKrhV2WKv8pvfnoQvh">
+    <mxGraphModel dx="1851" dy="1215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="MES API" c4Type="Container" c4Technology="C#" c4Description="- Assigns orders on operators&#xa;- Shows list of orders&#xa;- Calculates price of the order" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;" vertex="1">
+            <mxGeometry height="120" width="240" x="530" y="890" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Messages Queue" c4Type="Container" c4Technology="RabbitMQ" c4Description="Send messages about new orders, changes of statuses" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-2">
+          <mxCell parent="1" style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;" vertex="1">
+            <mxGeometry height="120" width="240" x="1440" y="640" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Internet Shop" c4Type="Container" c4Technology="Vue, TypeScript, Threejs" c4Description="User can make an order, upload 3d model" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-3">
+          <mxCell parent="1" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;" vertex="1">
+            <mxGeometry height="160" width="240" x="520" y="260" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="MES" c4Type="Container" c4Technology="React, typescript" c4Description="Interface to assign orders on operators" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-4">
+          <mxCell parent="1" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;" vertex="1">
+            <mxGeometry height="160" width="240" x="530" y="1070" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Operator" c4Type="Person" c4Description="Takes order in work, manufactures jewerly" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-5">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1">
+            <mxGeometry height="180" width="200" x="80" y="960" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Customer" c4Type="Person" c4Description="External person" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-6">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1">
+            <mxGeometry height="180" width="200" x="80" y="250" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API user" c4Type="Person" c4Description="External person" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-7">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1">
+            <mxGeometry height="180" width="200" x="80" y="700" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Shop API" c4Type="Container" c4Technology="SpringBoot" c4Description="- provide list of shop items&#xa;- receives 3d file" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-8">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;" vertex="1">
+            <mxGeometry height="120" width="240" x="910" y="280" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="CRM" c4Type="Container" c4Technology="Vue, Typescript" c4Description="Manager interface" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-9">
+          <mxCell parent="1" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;" vertex="1">
+            <mxGeometry height="160" width="240" x="530" y="530" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="CRM API" c4Type="Container" c4Technology="SpringBoot" c4Description="CRM Backend" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-10">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;" vertex="1">
+            <mxGeometry height="120" width="240" x="1090" y="550" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Shop DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Customer and Order data" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-11">
+          <mxCell parent="1" style="shape=cylinder3;size=20;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;" vertex="1">
+            <mxGeometry height="120" width="240" x="1400" y="280" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="3d files storage" c4Type="Container" c4Technology="S3-based storage" c4Description="stores 3d files" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-25">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;" vertex="1">
+            <mxGeometry height="120" width="240" x="900" y="780" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="MES db" c4Type="Container" c4Technology="PostgreSQL" c4Description="Orders and assignments" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-32">
+          <mxCell parent="1" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;" vertex="1">
+            <mxGeometry height="120" width="240" x="1414" y="1060" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Seller" c4Type="Person" c4Description="Operates with order" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-30">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;" vertex="1">
+            <mxGeometry height="180" width="200" x="80" y="480" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Jewerly Store System" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="6bDfexBDMjg7O7AECw8N-19">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;spacingTop=0;spacing=10;dashPattern=8 4;" vertex="1">
+            <mxGeometry height="1065" width="1220" x="500" y="235" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-20" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6bDfexBDMjg7O7AECw8N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-12" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.196;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-13" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-14" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-16" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.767;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" target="6bDfexBDMjg7O7AECw8N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-17" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" target="6bDfexBDMjg7O7AECw8N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-18" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-21" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-22" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-23" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-29" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="6bDfexBDMjg7O7AECw8N-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-26" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-27" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-25" value="uploads files">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="400" />
+            </Array>
+            <mxPoint x="970" y="430" as="sourcePoint" />
+            <mxPoint x="1170.08" y="790.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-31" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6bDfexBDMjg7O7AECw8N-33" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bDfexBDMjg7O7AECw8N-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1092" y="990" />
+              <mxPoint x="1092" y="1128" />
+            </Array>
+            <mxPoint x="1380" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="OpenTelemetry Collector" c4Type="Container" c4Technology="OpenTelemetry" c4Description="Collects traces from all services" label="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;[%c4Type%: %c4Technology%]&lt;/font&gt;&lt;/div&gt;" id="TRC-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#CC0000;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#990000;" vertex="1">
+            <mxGeometry height="120" width="240" x="700" y="1350" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Jaeger UI &amp; Storage" c4Type="Container" c4Technology="Jaeger" c4Description="Visualizes traces" label="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;[%c4Type%: %c4Technology%]&lt;/font&gt;&lt;/div&gt;" id="TRC-2">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#CC0000;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#990000;" vertex="1">
+            <mxGeometry height="120" width="240" x="1010" y="1350" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="TRC-3" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="TRC-1" value="sends traces">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="340" />
+              <mxPoint x="430" y="1250" />
+              <mxPoint x="820" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRC-4" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="TRC-1" value="sends traces">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="1200" />
+              <mxPoint x="820" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRC-5" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="TRC-1" value="sends traces">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="610" />
+              <mxPoint x="800" y="1150" />
+              <mxPoint x="820" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRC-6" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="TRC-1" value="sends traces">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="1100" />
+              <mxPoint x="880" y="1100" />
+              <mxPoint x="880" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRC-7" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="TRC-1" value="sends traces">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1300" />
+              <mxPoint x="820" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRC-8" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="TRC-1" value="sends traces">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1250" />
+              <mxPoint x="820" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRC-9" edge="1" parent="1" source="TRC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="TRC-2" value="exports traces">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TRC-10" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="6bDfexBDMjg7O7AECw8N-2" value="trace context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TRC-11" edge="1" parent="1" source="6bDfexBDMjg7O7AECw8N-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;" target="6bDfexBDMjg7O7AECw8N-1" value="trace context">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
